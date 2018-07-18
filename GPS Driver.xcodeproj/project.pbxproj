@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F53C2A9720FEC45E00184DE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C2A9620FEC45E00184DE8 /* AppDelegate.swift */; };
+		F53C2A9920FEC45E00184DE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C2A9820FEC45E00184DE8 /* ViewController.swift */; };
+		F53C2A9C20FEC45E00184DE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53C2A9A20FEC45E00184DE8 /* Main.storyboard */; };
+		F53C2A9E20FEC46300184DE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53C2A9D20FEC46300184DE8 /* Assets.xcassets */; };
+		F53C2AA120FEC46300184DE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53C2A9F20FEC46300184DE8 /* LaunchScreen.storyboard */; };
+		F53C2AAC20FEC46300184DE8 /* GPS_DriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C2AAB20FEC46300184DE8 /* GPS_DriverTests.swift */; };
+		F53C2AB720FEC46300184DE8 /* GPS_DriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C2AB620FEC46300184DE8 /* GPS_DriverUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F53C2AA820FEC46300184DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F53C2A8B20FEC45E00184DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F53C2A9220FEC45E00184DE8;
+			remoteInfo = "GPS Driver";
+		};
+		F53C2AB320FEC46300184DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F53C2A8B20FEC45E00184DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F53C2A9220FEC45E00184DE8;
+			remoteInfo = "GPS Driver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F53C2A9320FEC45E00184DE8 /* GPS Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53C2A9620FEC45E00184DE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F53C2A9820FEC45E00184DE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F53C2A9B20FEC45E00184DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F53C2A9D20FEC46300184DE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F53C2AA020FEC46300184DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F53C2AA220FEC46300184DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53C2AA720FEC46300184DE8 /* GPS DriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS DriverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53C2AAB20FEC46300184DE8 /* GPS_DriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_DriverTests.swift; sourceTree = "<group>"; };
+		F53C2AAD20FEC46300184DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53C2AB220FEC46300184DE8 /* GPS DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS DriverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53C2AB620FEC46300184DE8 /* GPS_DriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_DriverUITests.swift; sourceTree = "<group>"; };
+		F53C2AB820FEC46300184DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F53C2A9020FEC45E00184DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53C2AA420FEC46300184DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53C2AAF20FEC46300184DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F53C2A8A20FEC45E00184DE8 = {
+			isa = PBXGroup;
+			children = (
+				F53C2A9520FEC45E00184DE8 /* GPS Driver */,
+				F53C2AAA20FEC46300184DE8 /* GPS DriverTests */,
+				F53C2AB520FEC46300184DE8 /* GPS DriverUITests */,
+				F53C2A9420FEC45E00184DE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F53C2A9420FEC45E00184DE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F53C2A9320FEC45E00184DE8 /* GPS Driver.app */,
+				F53C2AA720FEC46300184DE8 /* GPS DriverTests.xctest */,
+				F53C2AB220FEC46300184DE8 /* GPS DriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F53C2A9520FEC45E00184DE8 /* GPS Driver */ = {
+			isa = PBXGroup;
+			children = (
+				F53C2A9620FEC45E00184DE8 /* AppDelegate.swift */,
+				F53C2A9820FEC45E00184DE8 /* ViewController.swift */,
+				F53C2A9A20FEC45E00184DE8 /* Main.storyboard */,
+				F53C2A9D20FEC46300184DE8 /* Assets.xcassets */,
+				F53C2A9F20FEC46300184DE8 /* LaunchScreen.storyboard */,
+				F53C2AA220FEC46300184DE8 /* Info.plist */,
+			);
+			path = "GPS Driver";
+			sourceTree = "<group>";
+		};
+		F53C2AAA20FEC46300184DE8 /* GPS DriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				F53C2AAB20FEC46300184DE8 /* GPS_DriverTests.swift */,
+				F53C2AAD20FEC46300184DE8 /* Info.plist */,
+			);
+			path = "GPS DriverTests";
+			sourceTree = "<group>";
+		};
+		F53C2AB520FEC46300184DE8 /* GPS DriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F53C2AB620FEC46300184DE8 /* GPS_DriverUITests.swift */,
+				F53C2AB820FEC46300184DE8 /* Info.plist */,
+			);
+			path = "GPS DriverUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F53C2A9220FEC45E00184DE8 /* GPS Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53C2ABB20FEC46300184DE8 /* Build configuration list for PBXNativeTarget "GPS Driver" */;
+			buildPhases = (
+				F53C2A8F20FEC45E00184DE8 /* Sources */,
+				F53C2A9020FEC45E00184DE8 /* Frameworks */,
+				F53C2A9120FEC45E00184DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPS Driver";
+			productName = "GPS Driver";
+			productReference = F53C2A9320FEC45E00184DE8 /* GPS Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F53C2AA620FEC46300184DE8 /* GPS DriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53C2ABE20FEC46300184DE8 /* Build configuration list for PBXNativeTarget "GPS DriverTests" */;
+			buildPhases = (
+				F53C2AA320FEC46300184DE8 /* Sources */,
+				F53C2AA420FEC46300184DE8 /* Frameworks */,
+				F53C2AA520FEC46300184DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F53C2AA920FEC46300184DE8 /* PBXTargetDependency */,
+			);
+			name = "GPS DriverTests";
+			productName = "GPS DriverTests";
+			productReference = F53C2AA720FEC46300184DE8 /* GPS DriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F53C2AB120FEC46300184DE8 /* GPS DriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53C2AC120FEC46300184DE8 /* Build configuration list for PBXNativeTarget "GPS DriverUITests" */;
+			buildPhases = (
+				F53C2AAE20FEC46300184DE8 /* Sources */,
+				F53C2AAF20FEC46300184DE8 /* Frameworks */,
+				F53C2AB020FEC46300184DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F53C2AB420FEC46300184DE8 /* PBXTargetDependency */,
+			);
+			name = "GPS DriverUITests";
+			productName = "GPS DriverUITests";
+			productReference = F53C2AB220FEC46300184DE8 /* GPS DriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F53C2A8B20FEC45E00184DE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Zachariah Crowell";
+				TargetAttributes = {
+					F53C2A9220FEC45E00184DE8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F53C2AA620FEC46300184DE8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F53C2A9220FEC45E00184DE8;
+					};
+					F53C2AB120FEC46300184DE8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F53C2A9220FEC45E00184DE8;
+					};
+				};
+			};
+			buildConfigurationList = F53C2A8E20FEC45E00184DE8 /* Build configuration list for PBXProject "GPS Driver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F53C2A8A20FEC45E00184DE8;
+			productRefGroup = F53C2A9420FEC45E00184DE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F53C2A9220FEC45E00184DE8 /* GPS Driver */,
+				F53C2AA620FEC46300184DE8 /* GPS DriverTests */,
+				F53C2AB120FEC46300184DE8 /* GPS DriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F53C2A9120FEC45E00184DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53C2AA120FEC46300184DE8 /* LaunchScreen.storyboard in Resources */,
+				F53C2A9E20FEC46300184DE8 /* Assets.xcassets in Resources */,
+				F53C2A9C20FEC45E00184DE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53C2AA520FEC46300184DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53C2AB020FEC46300184DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F53C2A8F20FEC45E00184DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53C2A9920FEC45E00184DE8 /* ViewController.swift in Sources */,
+				F53C2A9720FEC45E00184DE8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53C2AA320FEC46300184DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53C2AAC20FEC46300184DE8 /* GPS_DriverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53C2AAE20FEC46300184DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53C2AB720FEC46300184DE8 /* GPS_DriverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F53C2AA920FEC46300184DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F53C2A9220FEC45E00184DE8 /* GPS Driver */;
+			targetProxy = F53C2AA820FEC46300184DE8 /* PBXContainerItemProxy */;
+		};
+		F53C2AB420FEC46300184DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F53C2A9220FEC45E00184DE8 /* GPS Driver */;
+			targetProxy = F53C2AB320FEC46300184DE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F53C2A9A20FEC45E00184DE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53C2A9B20FEC45E00184DE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F53C2A9F20FEC46300184DE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53C2AA020FEC46300184DE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F53C2AB920FEC46300184DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F53C2ABA20FEC46300184DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F53C2ABC20FEC46300184DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GPS Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gps.GPS-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F53C2ABD20FEC46300184DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GPS Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gps.GPS-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F53C2ABF20FEC46300184DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GPS DriverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gps.GPS-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPS Driver.app/GPS Driver";
+			};
+			name = Debug;
+		};
+		F53C2AC020FEC46300184DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GPS DriverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gps.GPS-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPS Driver.app/GPS Driver";
+			};
+			name = Release;
+		};
+		F53C2AC220FEC46300184DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GPS DriverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gps.GPS-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GPS Driver";
+			};
+			name = Debug;
+		};
+		F53C2AC320FEC46300184DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GPS DriverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gps.GPS-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GPS Driver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F53C2A8E20FEC45E00184DE8 /* Build configuration list for PBXProject "GPS Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53C2AB920FEC46300184DE8 /* Debug */,
+				F53C2ABA20FEC46300184DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53C2ABB20FEC46300184DE8 /* Build configuration list for PBXNativeTarget "GPS Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53C2ABC20FEC46300184DE8 /* Debug */,
+				F53C2ABD20FEC46300184DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53C2ABE20FEC46300184DE8 /* Build configuration list for PBXNativeTarget "GPS DriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53C2ABF20FEC46300184DE8 /* Debug */,
+				F53C2AC020FEC46300184DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53C2AC120FEC46300184DE8 /* Build configuration list for PBXNativeTarget "GPS DriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53C2AC220FEC46300184DE8 /* Debug */,
+				F53C2AC320FEC46300184DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F53C2A8B20FEC45E00184DE8 /* Project object */;
+}
